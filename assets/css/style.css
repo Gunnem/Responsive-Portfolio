@@ -130,7 +130,7 @@ header .container {
 	margin-bottom: 2em;
 }
 
-img.headshot {
+.headshot {
 	float: left;
 	padding: 0 1em 1em 0;
 	width: 200px;
@@ -221,3 +221,52 @@ footer {
 	background-color: #666666;
 	border-top: 7px solid #4aaaa5;
 }
+
+/*Media inqueries start here*/
+
+
+@media screen and (max-width: 980px ) {
+	.container {
+	  width: 768px;
+	}
+	.main{
+	width: 768px;
+	}
+	.content {
+	width: 768px;
+	}
+	.headshot{
+	width: 200px;
+	}
+}
+  
+  @media screen and (max-width: 768px) {
+	.container {
+	  width: 640px;
+	}
+	.main{
+	  width: 640px;
+	}
+	.content{
+	 width: 640px;
+	}
+	.headshot {
+	width: 100%;
+	}
+}
+  
+  
+  @media screen and (max-width: 640px) {
+	.container {
+		width: 640px;
+	  }
+	  .main{
+		width: 640px;
+	  }
+	  .content{
+	   width: 640px;
+	  }	
+	  .headshot {
+		width: 200px;
+		}
+ }
